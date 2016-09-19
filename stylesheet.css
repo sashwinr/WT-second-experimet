@@ -1,0 +1,141 @@
+.dark{
+	background-color:black;
+	width:100%;
+ }
+	
+
+  
+.top-left{
+	margin-left:35px;
+	display:inline-block;
+	font-family:times new roman;
+	color:red;
+	line-height:60px;
+	font-size:40px;
+	text-shadow:2px 2px 2px green;
+}
+
+.top-right{
+	float:right;
+	font-family:times new roman;
+	color:red;
+	font-size:25px;
+	margin-right:25px;
+	margin-top:15px;
+	text-shadow:1.5px 1.5px 1.5px green;
+}
+
+.lists ul{
+	list-style-type:none;
+	overflow:hidden;
+	background-color:#bfbfbf;
+
+}
+.lists ul li{
+	
+	width:140px;
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	position:realtive;
+}
+
+.lists ul li a {
+	color:white;
+	font-size:30px;
+	text-decoration:none;
+	display:block;
+}
+	
+.lists ul li a:hover{ 
+   background-color:#ff6600;
+   color:black;
+   margin-left:5px;
+   z-index:-1;}
+.active{
+    background-color:#ffb84d;}
+   
+.lists ul ul {
+	position:absolute;
+	display:none;
+	background-color:;
+	margin-left:-20px;
+	border-top:0px;
+    border:1px solid black;
+	min-width:170px;
+	
+}
+
+.lists ul li:hover> ul{
+	display:block;
+	
+}
+ 
+.lists ul ul li{
+ display:block;
+ text-align:center;
+ ;}
+
+
+.lists ul ul li a:hover{
+	background-color:#ff6600;
+color:black;}
+
+.imgs{
+		z-index:-1;
+		box-shadow:8px 8px 8px grey;
+}
+
+.texts{
+	float:right;
+	margin-right:10px;
+	font-size:45px;
+	color:#ff5c33;
+	font-family:verdana;
+	font-style: italic;
+
+}
+
+.copyright{
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-size:40px;
+	font-family:times new roman;
+	display:block;
+}
+.highlight{
+    background-color:#ffb84d;}
+.writing{
+	font-size:40px;
+	font-family:Verdana;
+	margin-left:160px;
+	color:#ff3300;
+}
+
+.im-border{
+	margin-top:20px;
+	margin-left:45px;
+	float:left;
+	width:250px;
+	border:1px solid #ccccb3;
+	box-shadow:2px 2px 2px #ccccb3;
+}
+.im-border:hover{
+
+	box-shadow:2px 2px 2px  #a3a375;
+}
+.im-border imgs{
+	width:100%;
+	height:auto;
+}
+.decp{
+	text-align:center;
+	padding:5px;
+	color:#999966;
+	font-family:arial black;
+}
+.bkg{
+	background-color:white;
+}
